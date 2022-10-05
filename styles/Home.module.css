@@ -1,43 +1,51 @@
 .box {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 2rem 1rem;
-  text-align: center;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 2em 1em;
+	text-align: center;
 }
 
 .flex_col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .title {
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.2;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
 .tagline {
-  padding-bottom: 60px;
-  color: #fff;
-  font-size: 30px;
+	padding-bottom: 60px;
+	color: #fff;
+	font-size: 30px;
 }
 
 .copyright {
-  color: #cccccc;
-  font-size: 14px;
-  line-height: 1.4;
+	color: #cccccc;
+	font-size: 14px;
+	line-height: 1.4;
 }
 
-.copyright span {
-  margin-left: 0.5rem;
-  vertical-align: middle;
+.copyright p {
+	margin-bottom: 0.5em;
+}
+
+.copyright p a {
+	margin-left: 0.5em;
+	vertical-align: middle;
+}
+
+.copyright p a:not(:last-child) {
+	margin-left: 0.5em;
 }
